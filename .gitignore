@@ -1,0 +1,15 @@
+# Python virtual environment
+spark_env/
+
+# Dataset files
+data/*.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Hadoop local storage
+hdfs/
+# Spark installation files
+spark-3.5.3-bin-hadoop3.tgz*
+spark-3.5.3-bin-hadoop3/

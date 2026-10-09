@@ -1,0 +1,57 @@
+HEALTH STATUS PREDICTION
+FINAL PROJECT RESULTS
+
+Dataset:
+Diabetes Health Indicators BRFSS 2015
+
+Dataset Size:
+Total Records: 70,692
+Total Features: 21
+Target Column: Diabetes_binary
+
+HADOOP MAPREDUCE RESULTS:
+No Diabetes Records: 35,346
+Diabetes Records: 35,346
+
+SPARK RANDOM FOREST MODEL:
+Algorithm: Random Forest
+Number of Trees: 100
+Training Records: 56,628
+Testing Records: 14,064
+
+MODEL EVALUATION:
+Accuracy: 74.31%
+Precision: 74.38%
+Recall: 74.31%
+F1 Score: 74.30%
+
+CONFUSION MATRIX:
+True Negative: 5,069
+False Positive: 1,992
+False Negative: 1,621
+True Positive: 5,382
+
+R STATISTICAL ANALYSIS:
+Missing Values: 0
+Average BMI: 29.86
+Diabetes Class Distribution: 50% each
+
+VISUALIZATIONS:
+1. diabetes_distribution.png
+2. bmi_distribution.png
+3. general_health_distribution.png
+
+TECHNOLOGIES USED:
+Hadoop HDFS
+Hadoop MapReduce
+Apache Spark
+Spark MLlib
+Random Forest
+R Programming
+
+CONCLUSION:
+The project processes health indicator data using Hadoop
+and Apache Spark and builds a Random Forest model to
+predict diabetes status. The model achieved 74.31% accuracy
+on the test dataset. R was used for statistical analysis
+and visualization.
